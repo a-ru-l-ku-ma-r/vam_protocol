@@ -60,4 +60,68 @@ typedef struct{
 }proto_rx_mode_t; 
 
 
+/*************************************************************************************
+****                         packet format definitions                            ****
+*************************************************************************************/
+/*
+ * The SOF variable define the value of Start Of Frame (SOF) format packet 
+ */
+uint8_t SOF = '$';
+
+
+/*
+ * The structure describes the SET a value or GET a value 
+ * during the communication process
+ */
+typedef enum{
+    GET = 0,
+    SEt = 1,
+}opcode;
+
+
+/*
+ * The structure describes the type of data that is present in the packet.
+ * during the communication process
+ */
+typedef enum{
+    CHAR    =   0,
+    INT     =   1,
+    STR     =   2,
+}type;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #endif	/*  __PROTO_H__  */
