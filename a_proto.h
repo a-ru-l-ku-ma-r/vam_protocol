@@ -70,27 +70,39 @@ uint8_t SOF = '$';
 
 
 /*
- * The structure describes the SET a value or GET a value 
+ * The enum describes the SET a value or GET a value 
  * during the communication process
  */
 typedef enum{
     GET = 0,
     SEt = 1,
-}opcode;
+}opcode_t;
 
 
 /*
- * The structure describes the type of data that is present in the packet.
+ * The enum describes the type of data that is present in the packet.
  * during the communication process
  */
 typedef enum{
     CHAR    =   0,
     INT     =   1,
     STR     =   2,
-}type;
+}type_t;
 
 
 
+/*
+ * The structure describes the packet format
+ * during the communication process
+ */
+typedef struct{
+    uint8_t     sof;
+    opcode_t    opcode;
+    type_t      type;
+    uint8_t     length;
+    uint8_t     value;
+    uint16_t    checksum;
+}packet_format_t;
 
 
 
