@@ -66,7 +66,7 @@ typedef struct{
 /*
  * The SOF macro define the value of Start Of Frame (SOF) format packet 
  */
-#define SOF  '$'
+#define START_OF_FRAME    '$'
 
 
 /*
