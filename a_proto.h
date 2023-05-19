@@ -112,28 +112,4 @@ typedef struct{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #endif	/*  __PROTO_H__  */
