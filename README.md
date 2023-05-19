@@ -1,6 +1,6 @@
 # vam_protocol
 
-This protocol has three layers. They are as follows:
+This vam protocol has three layers. They are as follows:
 
    * Application Layer
    * Communication Layer
