@@ -64,9 +64,9 @@ typedef struct{
 ****                         packet format definitions                            ****
 *************************************************************************************/
 /*
- * The SOF variable define the value of Start Of Frame (SOF) format packet 
+ * The SOF macro define the value of Start Of Frame (SOF) format packet 
  */
-uint8_t SOF = '$';
+#define SOF  '$'
 
 
 /*
