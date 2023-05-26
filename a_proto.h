@@ -59,6 +59,16 @@ typedef struct{
     bool disble =   0;   
 }proto_rx_mode_t; 
 
+/*
+ * The structure describes the connection status
+ * of the transmitter and receiver
+ */
+typedef struct{
+    bool connected      =   1;
+    bool disconnected   =   0;   
+}connection_state_t;
+
+
 
 /*************************************************************************************
 ****                         packet format definitions                            ****
