@@ -114,9 +114,8 @@ typedef struct{
     uint16_t    checksum;
 }packet_format_t;
 
-
-
-
+// calculate the sum of string value
+int sum_of_string(uint8_t * );
 
 
 
