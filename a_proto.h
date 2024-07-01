@@ -85,7 +85,7 @@ typedef struct{
  */
 typedef enum{
     GET = 0,
-    SEt = 1,
+    SET = 1,
 }opcode_t;
 
 
