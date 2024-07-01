@@ -19,3 +19,7 @@ int sum_of_string(uint8_t *str)
   return sum_t;
 }
   
+void transmit(uint8_t value)
+{
+  
+}
