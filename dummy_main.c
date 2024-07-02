@@ -54,7 +54,7 @@ void proto_peripheral_init(void)
         //.disable    = TX_MODE_DIS
     };
     printf("\nEnable the Transmission mode of Peripheral = %d\n", proto_tx_mode.enable);
-    //printf("\nDisable the Transmission mode of Peripheral = %d\n", proto_tx_mode.disable);
+    printf("\nDisable the Transmission mode of Peripheral = %d\n", proto_tx_mode.disable);
 
 
     /* Receiving Mode */
@@ -63,7 +63,7 @@ void proto_peripheral_init(void)
         //.disable    = RX_MODE_DIS
     };
     printf("\nEnable the Receiving mode of Peripheral = %d\n", proto_rx_mode.enable);
-    //printf("\nDisable the Transmission mode of Peripheral = %d\n", proto_rx_mode.disable);
+    printf("\nDisable the Transmission mode of Peripheral = %d\n", proto_rx_mode.disable);
 }
 
 
