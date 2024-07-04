@@ -117,6 +117,8 @@ typedef struct{
 // calculate the sum of string value
 int sum_of_string(uint8_t * );
 
+int checksum_cal(int *_data_, int length);
+
 
 
 
