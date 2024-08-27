@@ -12,7 +12,8 @@ int sum_of_string(uint8_t *str)
 {
   int sum_t = 0;
   
-  while(*str){
+  while(*str)
+  {
     sum += str;
     str++;
   }
